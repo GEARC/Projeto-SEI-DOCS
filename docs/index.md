@@ -1,60 +1,60 @@
-# Projeto SEI - Integração SEI
+# Assistente SEI para Microsoft Teams
 
-## 1. Objetivo do Projeto
+!!! info "Informações do Projeto"
+    **Versão:** 1.0 (Fase de Prototipagem)  
+    **Data:** 16 de julho de 2025  
+    **Autor:** Marcos Marinho
 
-Automatizar processos do SEI, podendo utilizar o Microsoft Teams como canal de integração, visando facilitar rotinas e reduzir tarefas manuais.
+## 📝 Resumo do Projeto
 
-**Funcionalidades para os usuários:**
-- Executar comandos diretamente no Teams
-- Receber mensagens no Teams com confirmações e links para o SEI
+O **Assistente SEI para Microsoft Teams** é uma aplicação conversacional (bot) projetada para atuar como uma interface inteligente entre os usuários e o Sistema Eletrônico de Informações (SEI). 
 
-## 2. Status Atual e Próximos Passos
+O objetivo principal é **simplificar e agilizar rotinas de trabalho**, permitindo que os colaboradores realizem consultas, executem ações e recebam notificações do SEI diretamente do seu ambiente de trabalho principal: o Microsoft Teams.
 
-### A. Identificação do Problema e Solução
-- Análise das principais atividades realizadas no SEI pelas áreas da fundação
-- Mapeamento de oportunidades de automação
+## 🎯 Objetivos
 
-### B. Estudo do Manual SEI Web Services
-- Manual analisado
-- Integração via SOAP, exigindo registro de sistema externo (pendência crucial para testes e execução)
+### Objetivo Principal
+Criar uma ponte inteligente entre o Microsoft Teams e o SEI, proporcionando uma experiência de usuário moderna e intuitiva para as funcionalidades do sistema.
 
-**Dependências:**
-- Registrar o "Sistema Externo" no SEI
-- Gerar sigla do sistema (ex: SEI-AUTOMATE, SEI-BOT)
-- Obter o ID da unidade responsável pela assinatura de documentos
+### Objetivos Específicos
+- **Aumentar a produtividade** dos colaboradores
+- **Reduzir a necessidade** de alternar entre sistemas
+- **Simplificar processos** complexos através de interface conversacional
+- **Modernizar a experiência** de uso do SEI
+- **Criar uma solução escalável** com arquitetura multi-tenant
 
-### C. Primeira Ideia de Automação
-- Gerar e disponibilizar blocos de assinatura a partir de comandos no Teams
+## 🚀 Benefícios Esperados
 
-**Fluxo:**
-1. Usuário envia comando no Teams (bot)
-2. API PHP recebe o comando
-3. API PHP consome o Web Service SOAP do SEI para:
-    - `gerarBloco`
-    - `disponibilizarBloco`
-4. API PHP responde ao Teams com mensagem de sucesso e link de verificação
+- **Eficiência Operacional**: Redução do tempo gasto em tarefas administrativas
+- **Experiência do Usuário**: Interface familiar e intuitiva através do Teams
+- **Acessibilidade**: Funcionalidades do SEI disponíveis onde o usuário já trabalha
+- **Produtividade**: Menos alternância entre sistemas e aplicações
+- **Escalabilidade**: Capacidade futura de atender múltiplas organizações
+- **Padronização**: Processos uniformizados através da interface do bot
 
-**Outras oportunidades de automação:**
-- Criar processos (`gerarProcedimento`)
-- Incluir documentos (`incluirDocumento`)
-- Enviar processos para outras unidades (`enviarProcesso`)
-- Consultar dados de processos ou documentos
+## 🏗️ Visão Arquitetural
+
+A aplicação utiliza uma **arquitetura desacoplada** construída sobre a plataforma Microsoft Teams e Azure, garantindo:
+
+- **Manutenibilidade** através de componentes bem definidos
+- **Escalabilidade** para crescimento futuro
+- **Segurança** com autenticação integrada
+- **Flexibilidade** para expansão de funcionalidades
+
+### Stack Tecnológico Principal
+- **Backend**: Node.js com TypeScript
+- **Framework**: Microsoft Bot Builder v4
+- **Servidor**: Restify
+- **Interface**: Cartões Adaptáveis e Módulos de Tarefa
+- **Desenvolvimento**: Visual Studio Code + Teams Toolkit
+
+## 🎯 Público-Alvo
+
+- **Colaboradores** que utilizam o SEI em suas rotinas diárias
+- **Gestores** que precisam de visibilidade sobre processos
+- **Administradores** que gerenciam fluxos de trabalho
+- **Organizações** que buscam modernizar suas operações
 
 ---
 
-## Criação do Bot no Microsoft Teams
-
-### Opção: Utilizar Microsoft Graph API
-
-- Mais flexível e escalável para criação de processos
-- Power Automate é mais simples, porém pode limitar a expansão futura
-
-**Requisitos:**
-- Registrar o bot no Azure (obter App ID e Secret)
-- Configurar permissões necessárias no Azure (leitura e escrita de informações)
-- Estudar o funcionamento do Microsoft Graph API para leitura e envio de mensagens
-
----
-
-**Observação:**  
-O deploy da API PHP deve ser realizado em servidor com HTTPS.
+Para informações detalhadas sobre funcionalidades, arquitetura e implementação, consulte as demais seções desta documentação.

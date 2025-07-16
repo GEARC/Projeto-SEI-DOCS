@@ -1,6 +1,6 @@
-site_name: SEI + FunprespJud
-site_description: 
-site_author:
+site_name: Assistente SEI para Microsoft Teams
+site_description: Documentação completa do projeto de integração SEI com Microsoft Teams
+site_author: Marcos Marinho
 
 theme:
   name: material
@@ -36,6 +36,10 @@ theme:
     - toc.integrate
 nav:
   - Início: index.md
+  - Funcionalidades: funcionalidades.md
+  - Status e Próximos Passos: status-e-proximos-passos.md
+  - Arquitetura Técnica: arquitetura-tecnica.md
+  - Guia de Implementação: guia-implementacao.md
 
 markdown_extensions:
   - toc:
