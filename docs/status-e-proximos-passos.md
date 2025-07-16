@@ -2,19 +2,20 @@
 
 ## 📋 Status Atual do Projeto
 
-### ✅ Concluído
+### 🔄 Em Andamento
 
 #### A. Identificação do Problema e Solução
-- [x] Análise das principais atividades realizadas no SEI pelas áreas da fundação
+- [x] Configuração inicial do Ambiente de Desenvolvimento
+- [ ] Análise das principais atividades realizadas no SEI pelas áreas da fundação
 - [x] Mapeamento de oportunidades de automação
-- [x] Definição do escopo inicial do projeto
+- [ ] Definição do escopo inicial do projeto
 
 #### B. Estudo do Manual SEI Web Services
 - [x] Manual do SEI Web Services analisado
-- [x] Compreensão da integração via SOAP
+- [ ] Compreensão da integração via SOAP
 - [x] Identificação dos métodos necessários para automação
 
-### 🔄 Em Andamento
+### ⏳ Pendente
 
 #### C. Preparação da Infraestrutura
 - [ ] Registro do "Sistema Externo" no SEI
@@ -89,16 +90,4 @@
 - Servidor web com suporte a PHP e HTTPS
 - Ambiente de desenvolvimento e testes
 
----
 
-## 📊 Cronograma Estimado
-
-| Fase | Descrição | Prazo Estimado | Status |
-|------|-----------|----------------|--------|
-| 1 | Resolução de dependências | 2-3 semanas | 🔄 Em andamento |
-| 2 | Desenvolvimento da API | 3-4 semanas | ⏳ Aguardando |
-| 3 | Integração com Teams | 2-3 semanas | ⏳ Aguardando |
-| 4 | Testes e ajustes | 1-2 semanas | ⏳ Aguardando |
-| 5 | Deploy e produção | 1 semana | ⏳ Aguardando |
-
-**Prazo total estimado**: 9-13 semanas (dependendo da resolução das dependências)

@@ -36,9 +36,9 @@ theme:
     - toc.integrate
 nav:
   - Início: index.md
-  - Funcionalidades: funcionalidades.md
+  - Ideias de Funcionalidades: funcionalidades.md
   - Status e Próximos Passos: status-e-proximos-passos.md
-  - Arquitetura Técnica: arquitetura-tecnica.md
+  - Arquitetura Inicial: arquitetura-tecnica.md
   - Guia de Implementação: guia-implementacao.md
 
 markdown_extensions:

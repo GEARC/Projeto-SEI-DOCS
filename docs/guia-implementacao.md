@@ -1,5 +1,10 @@
 # Guia de Implementação
 
+!!! info "Essas informações ainda não estão atualizadas!"
+        **Teste**: Configurar os testes
+        **env**: configurar .env
+        **Dev**: pendente atualizar a estrutura de Documentos
+
 ## 🚀 Como Executar o Projeto Localmente
 
 ### 📋 Pré-requisitos

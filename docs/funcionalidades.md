@@ -1,4 +1,4 @@
-# Funcionalidades Planejadas
+# Ideias de Funcionalidades 
 
 ## 🔐 1. Autenticação Segura e SSO
 

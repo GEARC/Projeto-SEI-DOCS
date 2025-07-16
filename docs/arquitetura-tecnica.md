@@ -1,4 +1,4 @@
-# Arquitetura Técnica
+# Arquitetura Inicial
 
 ## 🏗️ Visão Geral da Arquitetura
 
